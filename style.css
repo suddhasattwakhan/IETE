@@ -1,0 +1,206 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(19, 18, 18);
+  }
+  
+ nav li {
+    float: left;
+  }
+  .content{
+      background-color: rgb(31, 30, 30);
+  }
+ nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    margin-right:10px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: rgb(39, 39, 39);
+  }
+  @media  (max-width: 480px)
+  {
+      nav ul{
+          display: flex;
+         flex-direction: column;
+      }
+  }
+  #home{
+    background-image: radial-gradient(rgb(205, 218, 247) 5%, rgb(8, 39, 139) 15%, rgb(9, 5, 65) 60%);
+  }
+  #home h3{
+      font-size:3rem;
+      text-align:center;
+      color:white;
+  }
+  #home img{
+      padding-top:8%;
+      margin-left: 32%;
+  }
+  #home h1{
+     text-align: center;
+     color:rgb(214, 214, 214);
+  }
+  #home h2{
+      text-align: center;
+      color:rgb(209, 209, 209);
+  }
+   #About-us {
+       background-color: rgb(31, 30, 30);
+   }
+  #About-us h1{
+      padding-top:3%;
+      text-align: center;
+      color:white;
+      padding: 3% 0%;
+  }
+  .description{
+      margin:0% 3% 6% 3%;
+      padding:4% 2%;
+      border-radius:5px;
+      box-shadow: 5px 10px 18px #888888;
+      background-color: white;
+  }
+  .flex-container{
+      display: flex;
+      box-shadow: 5px 10px 18px #888888;
+      margin:2% ;
+      background-color: white;
+  }
+  @media  (max-width: 480px)
+  {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }   
+    .flex-container .objective{
+        width:40%;
+    }
+    .flex-container .forum{
+        width:100%;
+    }
+  }
+  .flex-container .objective{
+      width:180%;
+  }
+  .flex-container .objective img{
+    margin-left: 20%;
+}
+.flex-container .objective h5{
+   padding:3%;
+   font-weight:normal;
+}
+.flex-container .forum img{
+    margin-left: 30%;
+}
+.flex-container .forum h5{
+   padding:3%;
+   font-weight: normal;
+    
+}
+  .flex-container .obective{
+        margin-left: 10%;
+  }
+  .Activities{
+      margin:7% 3%;
+      box-shadow: 5px 10px 18px #888888;
+      background-color: white;
+      padding-bottom:2%;
+  }
+  .Activities h1{
+      padding:3%;
+      text-align: center;
+      color:black;
+  }
+  .Activities h5{
+    padding: 1%;
+   font-weight:normal;
+}
+
+.extra h1{
+    text-align: center;
+}
+.flex-box{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+ .teamwork h2{
+    text-align: center;
+}
+.hackathons h2{
+    text-align: center;
+}
+.workshops h2{
+    text-align: center;
+}
+.workshops img{
+    padding-left:2%;
+}
+.hackathons img{
+    padding-left:6%;
+}
+.teamwork img{
+    padding-left:5%;
+}
+.teamwork{
+    float:left;
+    width:33%;
+}
+.hackathons{
+    float:left;
+    width:33%;
+}
+.workshops{
+    float:right;
+    width:33%;
+}
+#contact-us{
+    margin-top:35%;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+#contact-us h1{
+    padding-bottom:7%;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container a{
+    margin-right: 8%;
+    text-decoration: none;
+    color: rgb(241, 238, 238);
+} 
+@media  (max-width: 480px)
+{
+    .teamwork{
+        float:none;
+        width:100%;
+    }
+    .hackathons{
+        float:none;
+        width:100%;
+    }
+    .workshops{
+        float:none;
+        width:100%;
+    }
+    .container{
+   display: flex;
+   flex-direction: column;
+    }
+    .continer a{
+        padding-left: 20%;
+    }
+}
+
+
